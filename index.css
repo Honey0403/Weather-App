@@ -96,3 +96,29 @@ body{
     margin-top: 10px;
     display: none;
 }
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        
+        max-width: calc(100% - 20px);
+  margin: 0 auto;
+  padding: 10px 10px;
+  justify-content: center;
+        
+    }
+    
+    .search input {
+        max-width: calc(100% - 50px);
+        
+        margin-top: 10px; /* Space between the input and the button */
+
+    }
+
+    .search-icon {
+        /* display: none; */
+        max-width: 100%;
+        /* height: auto; */
+        margin-right: -25px
+
+    }
+}
