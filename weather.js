@@ -40,7 +40,10 @@ document.querySelector(".error").style.display="none";
 
 }
 }
-
+searchbox.addEventListener("keydown",(event)=>{
+    if(event.key==='Enter'){checkweather(searchbox.value)}
+    
+})
 
 
 
